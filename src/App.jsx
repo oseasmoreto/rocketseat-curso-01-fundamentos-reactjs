@@ -1,6 +1,6 @@
-import Post from './components/Post'
+import { Post } from './components/Post'
 
-function App() {
+export function App() {
 
   return (
     <div>
@@ -15,5 +15,3 @@ function App() {
     </div>
   )
 }
-
-export default App
